@@ -1,4 +1,4 @@
-from flask import Flask, render_template #importing the flask class and render_template function
+from flask import Flask, render_template, url_for #importing the flask class and render_template function
 app = Flask(__name__) #setting an instance of flask class
 
 posts = [

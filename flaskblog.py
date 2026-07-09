@@ -5,6 +5,9 @@ app = Flask(__name__) #setting an instance of flask class
 def Hello():    
     return "<h1>Home Page</h1>" #returning a string
 
+@app.route("/about") # shows the information for the routes
+def About():    
+    return "<h1>About Page</h1>" #returning a string
 
 if __name__ == "__main__":
     app.run(debug=True)   #running the app in debug mode

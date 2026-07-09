@@ -23,7 +23,7 @@ def Home():
 
 @app.route("/about") # shows the information for the routes
 def About():    
-    return render_template("about.html") #returning the about.html template
+    return render_template("about.html", title = "About") #returning the about.html template
 
 
 if __name__ == "__main__":

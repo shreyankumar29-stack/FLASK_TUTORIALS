@@ -251,5 +251,3 @@ if __name__ == '__main__':
 Flask's templating system, powered by Jinja2, allows Python data to be rendered dynamically inside HTML using `{{ }}`, `{% %}`, and `{# #}` syntax. Combined with template inheritance, filters, macros, and `url_for()`, it enables clean, DRY, and maintainable web application front-ends — making it a natural fit for projects like a Flask-based Smart Class Attendance Calculator.
 
 ---
-
-*Reference: [flask.palletsprojects.com/en/stable/templating](https://flask.palletsprojects.com/en/stable/templating/)*
